@@ -138,7 +138,7 @@ class _handledatabase{
 		try{
 			if($this->connection==true){
 				mysql_close($this->connection);
-				echo "testing of GIT VC";
+				echo "testing of GIT Version Control";
 			}
 		}catch(Exception $ex){
 			die("ERROR : ".$ex->getMessage());
